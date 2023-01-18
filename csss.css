@@ -1,0 +1,129 @@
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: aliceblue;
+}
+
+
+
+.titlediv {
+
+    background-color: lightcoral;
+    border-radius: 25px;
+    margin: 40px;
+
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+    border-image: initial;
+}
+
+.searchfield {
+    background-color: lightpink;
+    border-radius: 20px;
+
+}
+
+.submitfield {
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+
+.searchdiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar {
+    background-color: silver;
+    padding: 0px;
+}
+
+html {
+    font-family: System, monospace;
+    font-size: 10pt;
+}
+
+body {
+    margin: 0px;
+    background-color: #a5a4ce;
+}
+
+.navbutton {
+    color: black;
+    font-weight: bolder;
+}
+
+.navbutton:hover {
+    background-color: #505050;
+    color: silver;
+}
+
+
+
+.logo {
+    box-shadow: 0 0 0 3px #3465a4, 1em 1em 3px 0 rgb(0 0 0 / 50%);
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    padding: 10px;
+    background-color: #3465a4;
+    border: 6px double #fff;
+    color: white;
+    text-align: center;
+}
+
+.wallet {
+    box-shadow: 0 0 0 3px #3465a4, 1em 1em 3px 0 rgb(0 0 0 / 50%);
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    padding: 10px;
+    background-color: #3465a4;
+    border: 6px double #fff;
+    color: white;
+}
+
+.connect-button {
+    font-weight: bolder;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: green;
+    padding: 0 1em;
+    border: 1px outset green;
+    box-shadow: 0.5em 0.5em 3px rgb(0 0 0 / 50%);
+    display: inline-block
+}
+
+
+a {
+    font-weight: bolder;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: green;
+    padding: 0 1em;
+    border: 1px outset green;
+    box-shadow: 0.5em 0.5em 3px rgb(0 0 0 / 50%);
+    display: inline-block
+}
+
+a:hover {
+    font-weight: bolder;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: red;
+    padding: 0 1em;
+    border: 1px outset green;
+    box-shadow: none;
+    display: inline-block
+}
